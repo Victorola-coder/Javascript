@@ -4,9 +4,10 @@
 -- Set up my Vscode (UI and settings)
 -- leant about the console
 
-# I will add the number of days this took again but i will keep track today is OCT 16th 2023
+# ini OCT 16th 2023
 
-# Capitalize challenge init
+# String
+ 
 
 ## Capitalize Challenge
 
