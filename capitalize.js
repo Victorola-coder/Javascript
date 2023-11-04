@@ -13,4 +13,4 @@ newWord = word[0].toUpperCase() + word.substring(1)
 
 // template literals 
 newWord  = `${word[0].toUpperCase()}${word.slice(1)} `
-console.log(newWord, word.length)
+console.log(newWord, word.length, newWord.length)
