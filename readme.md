@@ -1,4 +1,5 @@
 <!--Coding in Vanilla Documenations -->
+
 # Day one
 
 -- Set up my Vscode (UI and settings)
@@ -7,7 +8,6 @@
 # ini OCT 16th 2023
 
 # String
- 
 
 ## Capitalize Challenge
 
@@ -30,3 +30,7 @@ console.log(myNewString); // 'Developer'
 1. You can use the `charAt()` method as well as `string[index]` to get the character at a specific index.
 2. The `.toUpperCase()` method will make the entire string uppercase
 3. `substring()` or `slice()` will return a specific portion of a string
+
+## GAPFUL
+
+A gapful number is a number of at least 3 digits that is divisible by the number formed by the first and last digit of the original number.
