@@ -1,20 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>JS lol</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="https://cdn.tailwindcss.com"></script>
+    <title>Countdown Timer</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+      }
+    </style>
   </head>
-
-  <body>
-    <h1
-      style="
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      "
+  <body class="flex flex-col gap-5 items-center justify-center min-h-[100vh]">
+    <h3 class="text-6xl font-semibold text-black items-center">
+      Learn JAVA<span class="text-yellow-400">SCRIPT</span> in
+    </h3>
+    <div
+      class="text-5xl font-medium text-red-400 transition-all duration-300"
+      id="timer"
     >
-      I am a HTML Programmer!😁
-    </h1>
+      00:00:00
+    </div>
+    <div id="controls" class="flex flex-row gap-4 items-center">
+      <button
+        class="text-white capitalize font-medium font-base active:scale-[0.97] transition-all duration-300 bg-blue-500 w-[100px] py-3.5 rounded"
+        onclick="startTimer()"
+      >
+        Start
+      </button>
+      <button
+        class="text-white capitalize font-medium font-base active:scale-[0.97] transition-all duration-300 bg-yellow-500 w-[100px] py-3.5 rounded"
+        onclick="pauseTimer()"
+      >
+        Pause
+      </button>
+      <button
+        class="text-white capitalize font-medium font-base active:scale-[0.97] transition-all duration-300 bg-red-500 w-[100px] py-3.5 rounded"
+        onclick="resetTimer()"
+      >
+        Reset
+      </button>
+    </div>
+
+    <script>
+      let timer;
+      let timeRemaining = 36 * 60 * 60; // 36 hours in seconds
+      let isPaused = true;
+
+      function startTimer() {
+        if (isPaused) {
+          isPaused = false;
+          timer = setInterval(updateTimer, 1000);
+        }
+      }
+
+      function pauseTimer() {
+        clearInterval(timer);
+        isPaused = true;
+      }
+
+      function resetTimer() {
+        clearInterval(timer);
+        isPaused = true;
+        timeRemaining = 36 * 60 * 60; // Reset to 36 hours in seconds
+        updateTimerDisplay();
+      }
+
+      function updateTimer() {
+        if (timeRemaining > 0) {
+          timeRemaining--;
+          updateTimerDisplay();
+        } else {
+          clearInterval(timer);
+          alert("Countdown finished!");
+        }
+      }
+
+      function updateTimerDisplay() {
+        const hours = Math.floor(timeRemaining / 3600);
+        const minutes = Math.floor((timeRemaining % 3600) / 60);
+        const seconds = timeRemaining % 60;
+        document.getElementById("timer").textContent = `${String(
+          hours
+        ).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(
+          seconds
+        ).padStart(2, "0")}`;
+      }
+    </script>
   </body>
-  <!-- capitalize challenge script -->
-  <script src="./capitalize.js"></script>
-  <script src="music.js"></script>
-  <!-- capitalize ends -->
 </html>
