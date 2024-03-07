@@ -49,11 +49,40 @@
       >
         Reset
       </button>
+      <button
+        class="text-white capitalize font-medium font-base active:scale-[0.97] transition-all duration-300 bg-green-500 w-[100px] py-3.5 rounded"
+        onclick="addTime(60)"
+        <!--
+        Add
+        1
+        minute
+        to
+        the
+        timer
+        --
+      >
+        > +1 Min
+      </button>
+      <button
+        class="text-white capitalize font-medium font-base active:scale-[0.97] transition-all duration-300 bg-purple-500 w-[100px] py-3.5 rounded"
+        onclick="subtractTime(60)"
+        <!--
+        Subtract
+        1
+        minute
+        from
+        the
+        timer
+        --
+      >
+        > -1 Min
+      </button>
     </div>
 
     <script>
       let timer;
-      let timeRemaining = 36 * 60 * 60; // 36 hours in seconds
+      let timeRemaining =
+        parseInt(localStorage.getItem("timeRemaining")) || 36 * 60 * 60; // 36 hours in seconds
       let isPaused = true;
 
       function startTimer() {
@@ -66,18 +95,35 @@
       function pauseTimer() {
         clearInterval(timer);
         isPaused = true;
+        localStorage.setItem("timeRemaining", timeRemaining.toString());
       }
 
       function resetTimer() {
         clearInterval(timer);
         isPaused = true;
         timeRemaining = 36 * 60 * 60; // Reset to 36 hours in seconds
+        localStorage.setItem("timeRemaining", timeRemaining.toString());
+        updateTimerDisplay();
+      }
+
+      function addTime(seconds) {
+        timeRemaining += seconds;
+        updateTimerDisplay();
+      }
+
+      function subtractTime(seconds) {
+        if (timeRemaining >= seconds) {
+          timeRemaining -= seconds;
+        } else {
+          timeRemaining = 0;
+        }
         updateTimerDisplay();
       }
 
       function updateTimer() {
         if (timeRemaining > 0) {
           timeRemaining--;
+          localStorage.setItem("timeRemaining", timeRemaining.toString());
           updateTimerDisplay();
         } else {
           clearInterval(timer);
@@ -95,6 +141,9 @@
           seconds
         ).padStart(2, "0")}`;
       }
+
+      // Initial display
+      updateTimerDisplay();
     </script>
   </body>
 </html>
