@@ -1,16 +1,16 @@
 const concert = {
   bands: [
     {
-      name: 'Rolling Stones',
-      songs: ['Satisfaction', 'Gimme Shelter', "Jumpin' Jack Flash"],
+      name: "Rolling Stones",
+      songs: ["Satisfaction", "Gimme Shelter", "Jumping' Jack Flash"],
     },
     {
-      name: 'Black Keys',
-      songs: ['Lonely Boy', "Howlin' For You", 'Gold on the Ceiling'],
+      name: "Black Keys",
+      songs: ["Lonely Boy", "Howling' For You", "Gold on the Ceiling"],
     },
     {
-      name: 'Kendrick Lamar',
-      songs: ['HUMBLE.', 'DNA.', 'Alright'],
+      name: "Kendrick Lamar",
+      songs: ["HUMBLE.", "DNA.", "Alright"],
     },
   ],
 };
@@ -29,9 +29,9 @@ console.log(playlist);
 /* [
   "Satisfaction",
   "Gimme Shelter",
-  "Jumpin' Jack Flash",
+  "Jumping' Jack Flash",
   "Lonely Boy",
-  "Howlin' For You",
+  "Howling' For You",
   "Gold on the Ceiling",
   "HUMBLE.",
   "DNA.",
