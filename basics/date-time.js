@@ -1,13 +1,24 @@
 // Working with Javascript Date Object
 
-let date;
+let d;
 
-date = new Date();
+let date = new Date();
 
-date = date.toString();
+d = date.toString(); // convert the date to a string
 
-date = Date.now(); //Returns the number of milliseconds elapsed since midnight, January 1, 1970 Universal Coordinated Time (UTC).
+d = Date.now(); //Returns the number of milliseconds elapsed since midnight, January 1, 1970 Universal Coordinated Time (UTC).
 
-date = d;
+d = date.valueOf(); // current timestamp
 
-console.log(date, typeof date);
+d = date.getFullYear(); //Gets the year, using local time.
+
+d = date.getDate(); //Gets the day-of-the-month, using local time.
+
+d = date.getDay(); //Gets the day of the week, using local time.
+d = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`; // 2024-3-9
+// console.log(d, date, typeof date);
+console.log(d);
+
+d = new Intl.DateTimeFormat("en-NG");
+
+// JS intl date time format api
