@@ -21,4 +21,15 @@ console.log(d);
 
 d = new Intl.DateTimeFormat("en-NG");
 
+d = d.toLocaleString("default", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric",
+  timeZone: "Africa/Lagos",
+});
+
 // JS intl date time format api
