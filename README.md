@@ -5,4 +5,7 @@ JavaScript codebase where i learn VanillaJs and expiriment stuffs... build stuff
 
 ## Introduction
 
-In this repository, I focus on hands-on learning of JavaScript core. Each project serves as a practical exercise to enhance my understanding of web development, solving problems and chllenges.
+In this repository, I focus on hands-on learning of JavaScript core. Each project serves as a practical exercise to enhance my understanding of web development, solving problems and challenges.
+
+## Contribution
+Feel free to contribute to this project, 
