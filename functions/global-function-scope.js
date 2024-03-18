@@ -11,3 +11,33 @@
  */
 
 // WINDOW GLOBAL OBJECT - the browser creates a global object called `window`. This object has a ton of methods and properties
+
+// window.alert("Hello World") // alert is directly on the window object but we don't need to necessarily add window every time
+
+// alert("Hello World"); // will still work as above
+
+// Global Variable
+
+const x = 100;
+
+// this variable can be accessed anywhere in the File, its global scoped variable
+
+function Logx(num) {
+  return x + num;
+}
+
+console.log(Logx(100)); // 200 => x + 100 = 100 + 100 -- bts
+
+// either way if i define a variable with const in the function, its only scoped to that function
+/*
+if I create a variable called `x` in the function, 
+it will overwrite the global variable and I can no longer access it. This is called **variable shadowing**.
+*/
+
+function test() {
+  // i can define the  variable as param too, x = 100
+  const x = 100;
+  console.log(x);
+}
+
+test();
