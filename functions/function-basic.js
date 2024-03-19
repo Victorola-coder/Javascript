@@ -1,7 +1,8 @@
 /*
  ----------------------------------------------------------------------------------------------------------------------------------------------
 *Functions is just some kind of way of writing some groups of code that can be run all once together and can be reused, you declare a function with the 
-*"function" keyword and then a "name" or "identifier" follow, a "bracket" and "curly braces/brackets" - function functionName (){} - you just initialized a function and also, function is a reserved keyword in JS!
+*"function" keyword and then a "name" or "identifier" follow, a "bracket" and "curly braces/brackets" -
+*function functionName (){} - you just initialized a function and also, function is a reserved keyword in JS!
  ----------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -68,3 +69,24 @@ const user = {
 };
 
 console.log(userDetails(user));
+
+// Function Expression - this is where we can talk about hoisting and all comes in, the function expression cannot be accessed before init
+
+// console.log(run("sola")); // it wont work
+const run = function (name) {
+  return `${name} is a good runner!`;
+};
+
+// console.log(run("sola")); // if i move this log to the top of whee the function is init, it wont work
+
+// TRYING THIS WITH THE NORMAL WAY OF INIT. FUNCTION, IT WILL WORK
+
+console.log(sleep("Jay")); // the sleep function will work here
+
+function sleep(name) {
+  return `${name} is so fast as asleep`;
+}
+
+console.log(sleep("Sophie")); // or here
+
+// i think hoisting is the way you want your code to move to the top of the file before run time - Hoisting
