@@ -25,3 +25,15 @@ function minMaxx(arr) {
 }
 
 console.log(minMaxx([55, 32, 43, 54, 65, 76, 87, 98, 109]));
+
+// challenge 3
+
+((l, b) => {
+  //   console.log(l * b);
+
+  const area = l * b;
+
+  const result = `the area of  a rectangle of a length ${l} and a width of ${b} is ${area}`;
+
+  console.log(result);
+})(10, 5);
