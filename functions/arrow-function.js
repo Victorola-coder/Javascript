@@ -36,5 +36,12 @@ console.log(squareNumber(7));
 // forEach loop
 
 const numbers = [1, 2, 3, 4, 5];
+// normal way using anonymous function
+numbers.forEach(function (num) {
+  console.log(num);
+});
 
-numbers.forEach();
+// this can be rewritten in a more cleaner and shorter way
+numbers.forEach((n) => {
+  console.log(n);
+});
