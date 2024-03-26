@@ -4,7 +4,7 @@ function validate() {
   return re.test();
 }
 
-console.log(validate());
+console.log(validate()); //false
 
 console.log(NaN === NaN);
 /*
