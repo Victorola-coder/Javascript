@@ -47,8 +47,30 @@ if (x) {
 // - {} (empty object)
 // - function() {} (empty function)
 
-// working with objects
+// TRUTHY & FALSY CAVEATS
 
-if ({}) {
-  console.log("yo");
+const children = 0;
+
+// if (children) {
+//   console.log(`you have ${children} children`);
+// } else {
+//   console.log(`go and get laid fam`);
+// }
+
+if (children !== undefined) {
+  console.log(`you have ${children} children`);
+} else {
+  console.log("Go and get laid fam");
 }
+
+// working with empty objects
+
+const users = {};
+
+if (Object.keys(users).length < 0) {
+  console.log(`${users.name} is online`);
+} else {
+  console.log("No user is Online");
+}
+
+// since an empty object will return "true" we can use the javascript method to convert to array and then check the length

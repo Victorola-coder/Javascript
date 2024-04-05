@@ -11,3 +11,12 @@ console.log(NaN === NaN);
  *in JavaScript compare values by checking for strict equality.
  *NaN is considered unique in that it doesn't equal any other value, including itself.
  */
+
+//  ARITHMETIC SHITS
+console.log("2" + "2" + "0");
+
+let booleanTest = "22" + "3";
+
+let result = Boolean(booleanTest);
+
+console.log(result, booleanTest);
