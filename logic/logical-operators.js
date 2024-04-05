@@ -13,3 +13,12 @@ console.log(10 < 4 || 7 < 2);
 // && - return the first truthy value or the last one
 
 let a;
+
+a = 10 && 20;
+a = 10 & 30 && 50;
+
+console.log(a);
+
+// real world application
+
+const posts = [""];

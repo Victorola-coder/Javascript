@@ -74,3 +74,15 @@ if (Object.keys(users).length < 0) {
 }
 
 // since an empty object will return "true" we can use the javascript method to convert to array and then check the length
+
+// working with arrays
+
+const arr = [];
+
+if (arr) {
+  console.log(
+    "love is a higher revelation than all the wisdom and philosophy. "
+  );
+} else {
+  console.log("");
+}
