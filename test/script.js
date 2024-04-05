@@ -12,7 +12,8 @@ console.log(NaN === NaN);
  *NaN is considered unique in that it doesn't equal any other value, including itself.
  */
 
-//  ARITHMETIC SHITS
+//  ARITHMETIC SHITS - saw some images on twitter and tried to run it on my console and im very surprised the way JavaScript always work
+
 console.log("2" + "2" + "0");
 
 let booleanTest = "22" + "3";
