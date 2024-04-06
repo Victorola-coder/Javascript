@@ -6,7 +6,7 @@ function validate() {
 
 console.log(validate()); //false
 
-console.log(NaN === NaN);
+console.log(NaN === NaN); // false
 /*
  *in JavaScript compare values by checking for strict equality.
  *NaN is considered unique in that it doesn't equal any other value, including itself.
