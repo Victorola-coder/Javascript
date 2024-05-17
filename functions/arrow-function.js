@@ -1,6 +1,6 @@
 // ONE OF THE SWEET FEATURES THAT CAME WITH ES6
 
-// first off, the js fucntion is declared this way
+// first off, the js funtion is declared this way
 
 function NetworkSpeed(rate) {
   return `your internet connection speed it ${rate}kb/s`;
@@ -31,7 +31,7 @@ const squareNumber = (x) => x * x; // const squareNumber = x => x * x; when i sa
 console.log(squareNumber(7));
 
 // another shorter way
-// IM NOT SURE THER IS ANY SHORTER WAY
+// IM NOT SURE THERE IS ANY SHORTER WAY
 
 // forEach loop
 
@@ -43,5 +43,5 @@ numbers.forEach(function (num) {
 
 // this can be rewritten in a more cleaner and shorter way
 numbers.forEach((n) => {
-  console.log(n);
+  console.log(`number ${n}`);
 });

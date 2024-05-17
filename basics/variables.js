@@ -1,6 +1,6 @@
 // RESERVED KEYWORDS - inbuilt Javascript that cannot be used for naming variables and stuffs, eg function, var, let , const, if, do, while and more.
 
-//  you cn use the data types keyword to declare variables but its not a good practice
+//  you can use the data types keyword to declare variables but its not a good practice
 
 // LET - for declaring variables that can be reassign but not redeclare, it was introduced in version ES6 with "const Keyword", let is a block scoped variable and it is a reserved keyword
 
@@ -10,7 +10,7 @@ let name = "Victor";
 
 let age; //undefined
 
-// i can come down to assign it but its more  comment in a if/else block
+// i can come down to assign it but its more  common in a if/else block
 
 // BLOCK SCOPE VARIABLES CANNOT BE REDECLAREd
 
@@ -66,3 +66,5 @@ its possible to declare many variables at once and all
 let a = 1,
   b = 5,
   c = 7;
+
+console.log(a, b, c);

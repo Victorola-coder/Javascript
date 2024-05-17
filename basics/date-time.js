@@ -32,4 +32,4 @@ d = d.toLocaleString("default", {
   timeZone: "Africa/Lagos",
 });
 
-// JS intl date time format api
+// JS intl date time format API

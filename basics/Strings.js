@@ -1,4 +1,4 @@
-// Working with string
+// Working with string data types
 
 let string = "Hello World"; // bts - string is a primitive data type and we are able to use  methods and property on it which is common ony to reference data type
 
