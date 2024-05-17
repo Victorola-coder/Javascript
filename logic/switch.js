@@ -20,6 +20,7 @@ new Date - Creates a new Date.
 
 switch (month) {
   case 1:
+    ``;
     console.log("Hello, March"); // this is from the time on my local machine
     break;
 

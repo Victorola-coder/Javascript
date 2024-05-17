@@ -27,7 +27,7 @@ if (true) {
 
 console.log(a); // 8 will still work
 
-// WORKING IN WITH LOOP, IF YOU USE VAR, THE INDEX WILL BE ACCESSED OUTSIDE THE FUNCTION
+// WORKING WITH LOOP, IF YOU USE VAR, THE INDEX WILL BE ACCESSED OUTSIDE THE FUNCTION
 
 for (var i = 0; i < 10; i++) {
   console.log(i + i);

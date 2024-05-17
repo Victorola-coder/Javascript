@@ -15,7 +15,7 @@ function calculator(num1, num2, operator) {
       result = num1 / num2;
       break;
     default:
-      result = "operator invalid, can only br +, _, * or /";
+      result = "operator invalid, can only be +, _, * or /";
   }
 
   console.log(result);

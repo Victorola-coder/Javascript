@@ -1,4 +1,4 @@
-// CHECK THE README FILEgit
+// CHECK THE README FILE
 
 // 1 var x = 100
 // 2  var y = 50
@@ -11,9 +11,9 @@
 
 /*
 ---------------------------------------------------------------------------------------------------------
-* in line 1, var is allocated in the memory global execution context and the value is set to undefined, 
-* same as y in line 2, the stuffs will allocate the getsum function skip others line 7 and set the values of sum1 in line 7 to undefined as well aa line 8
-
+* on line 1, var is allocated in the memory global execution context and the value is set to undefined, 
+* same as y on line 2, the stuffs will allocate the getSum function skip others line 7 and set the values of sum1 in line 7 to undefined as well aa line 8
+ 
 * the stuffs will come again to set the values of the actually variables, now x on line 1 is 100 as well as the rest
 ---------------------------------------------------------------------------------------------------------
 */

@@ -1,4 +1,4 @@
-// STEP 1
+// STEP 1 - create an obect- check readme for full intructions
 
 const library = [
   {
@@ -42,13 +42,13 @@ x = library[2].status.read = true;
 
 // console.log(x, library);
 
-// STEP 3
+// STEP 3 - Destructure the title from the first book and rename the variable to `firstBook`
 
 const { title: firstBook } = library[0];
 
 // console.log(firstBook);
 
-// STEP 4
+// STEP 4 - Turn the library object into a JSON string.
 
 const obj = JSON.stringify(library);
 
