@@ -5,7 +5,7 @@ const email = "example@email.com";
 if (email) {
   console.log("You have entered an email address");
 } else {
-  console.log("email  cannot be blank");
+  console.log("email cannot be blank");
 }
 
 // the email variable above will be coerced into a boolean as far as it is in an if/else block
@@ -34,7 +34,7 @@ if (x) {
   console.log(`x is falsy`);
 }
 
-//  Truthy Values
+// Note Truthy Values
 
 // Everything that is not falsy will evaluate to `true`, however, Some of these may surprise you.
 
