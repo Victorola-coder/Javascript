@@ -30,13 +30,17 @@ switch (month) {
 }
 
 // lets define a date
-const date = new Date(2022, 1, 20, 8, 0, 0);
+// const date = new Date(2022, 1, 20, 8, 0, 0);
+
+const date = new Date();
+
+console.log(date);
 
 const day = date.getDay();
 
 switch (day) {
   case 0:
-    console.log("Its mondday");
+    console.log("Its Monday");
     break;
 
   case 1:
@@ -48,6 +52,6 @@ switch (day) {
     break;
 
   default:
-    console.log("its not a day in the week");
+    console.log("");
     break;
 }
