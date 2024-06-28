@@ -1,4 +1,4 @@
-// write a function that returns
+// write a function that returns the factorial of a number
 
 function factorial(n) {
   if (n === 1 || n === 0) return 1;
