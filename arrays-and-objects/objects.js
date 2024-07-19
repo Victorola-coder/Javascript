@@ -11,10 +11,10 @@ const person = {
   nickName: "VickyJay",
   age: 18,
   career: "Software Engineering",
-  relationshipStatus: "liked someone",
+  relationshipStatus: "liked someone, more loel single but not searching",
   spouse: null,
-  hobbies: ["coding", "music", "swimming", "running", "learning"],
-  stacks: [
+  hobbies: ["coding", "music", "swimming", "running", "learning", "fafo"],
+  stacks_tools: [
     "JavaScript",
     "Typescript",
     "Tailwindcss",
@@ -22,6 +22,7 @@ const person = {
     "CSS",
     "ReactJS",
     "NextJs",
+    "NodeJs",
   ],
   address: {
     state: "Osun",
