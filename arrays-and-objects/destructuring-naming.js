@@ -11,7 +11,7 @@ const userDetails = {
       street: "13B, cosmos estate",
     },
   },
-  occupation: "student",
+  occupation: "sofrware guy",
 };
 
 const {
