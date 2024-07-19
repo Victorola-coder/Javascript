@@ -13,7 +13,7 @@ const post = {
   id: 1,
   title: "YO!",
   content:
-    "Hello, everyone! Welcome to my Youtube channel, in this video, im going to show you that consistency is hard, but im i have something harder",
+    "Hello, everyone! Welcome to my Youtube channel, in this video, im going to show you that consistency is hard, but i have something harder",
 };
 
 // Converts a JavaScript Object Notation (JSON) object into a string.
