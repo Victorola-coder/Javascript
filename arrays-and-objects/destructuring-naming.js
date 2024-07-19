@@ -44,7 +44,7 @@ const skills = [
 
 const number = [1, 2, 3, 4, 5];
 
-const [yo, ...rest] = number; // yo represent th first index in the array and it will return the value that maths it's position
+const [yo, ...rest] = number; // you represent the first index in the array and it will return the value that matches it's position
 
 // console.log(yo, rest.join(" "));
 
@@ -66,7 +66,7 @@ const data = {
   occupation: "student",
   skills: ["tech", "design", "art", "skating"],
   hobbies: ["singing", "coding", "writing", "swimming", "chess"],
-  relationships: "single",
+  relationship: "single, not searching",
 };
 
 const { address, name: n } = data;
