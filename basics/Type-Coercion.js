@@ -1,4 +1,4 @@
-// Type coercion happens when JavaScript implicitly change thr  type of  a variable to suit the situation.
+// Type coercion happens when JavaScript implicitly change the  type of  a variable to suit the situation.
 let v;
 
 v = 7 + "7"; // 77 - JS coverts the 7 to string and concatenate it to "77" - js reads + here as a concatenates and not an arithmetic operator
