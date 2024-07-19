@@ -11,7 +11,7 @@ const person = {
   nickName: "VickyJay",
   age: 18,
   career: "Software Engineering",
-  relationshipStatus: "liked someone, more loel single but not searching",
+  relationshipStatus: "liked someone, more like single but not searching",
   spouse: null,
   hobbies: ["coding", "music", "swimming", "running", "learning", "fafo"],
   stacks_tools: [
