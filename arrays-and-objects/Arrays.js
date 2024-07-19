@@ -26,7 +26,8 @@ arr.unshift(100);
 
 output = arr.length; // returns the length of the array
 
-// output = arr.reduce((arr, rec) => arr + rec); // LETS TALK ABOUT THIS LATER
+// output = arr.reduce((arr, rec) => arr + rec); 
+// LETS TALK ABOUT THIS LATER
 
 arr.reverse(); // return the element in the array in a reversed order
 
@@ -36,6 +37,6 @@ console.log(output);
 
 /* 
 ---------------------
-NOTE! this code runs from the top to the bottom and most of the method and property mutate the original array
+NOTE! this code runs from the top to the bottom and most of the method and property mutate the original array.
 ---------------------
 */
