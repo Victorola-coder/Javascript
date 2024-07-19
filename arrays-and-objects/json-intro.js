@@ -20,7 +20,7 @@ const post = {
 const str = JSON.stringify(post);
 /*
  * this is what we send to the db as a frontend dev,we cant't access property on the string,
- * we have to parse it to convert it to
+ * we have to parse it to convert it
  */
 
 // Converts a JavaScript Object Notation (JSON) string into an object.
