@@ -52,4 +52,4 @@ for (let i = 1; i <= 12; i++) {
   console.log("number" + i);
 }
 
-// NOTE - the looop above can be used to solve multiplication tables stuffs
+// NOTE - the loop above can be used to solve multiplication tables stuffs
