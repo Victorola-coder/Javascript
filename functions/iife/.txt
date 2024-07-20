@@ -1,2 +1,4 @@
 😅
 BEFORE LEARNING ABOUT IIFE, I WAS THINKING MY EDITOR HAS AN ISSUE OR SOMETHING.
+
+IIFE - Immediately invoked function expressions.

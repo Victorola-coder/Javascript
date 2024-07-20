@@ -8,4 +8,7 @@ JavaScript codebase where i learn VanillaJs and expiriment stuffs... build stuff
 In this repository, I focus on hands-on learning of JavaScript core. Each project serves as a practical exercise to enhance my understanding of web development, solving problems and challenges.
 
 ## Contribution
-Feel free to contribute to this project, 
+
+Feel free to contribute to this project, check out the [/roadmap.txt] file to see how to navigate around this codebase.
+
+## SETUP
