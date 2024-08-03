@@ -7,6 +7,8 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 
+// recuursive
+
 console.log(factorial(10));
 
 // class FactorialCalculator {
