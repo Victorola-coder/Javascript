@@ -56,3 +56,16 @@ const arr = JSON.stringify(randomPerson);
 const omo = JSON.parse(arr);
 
 console.log(omo[0].name);
+
+
+/* 
+---------------------
+NOTE! this code runs from the top to the bottom
+---------------------
+*/
+
+
+
+
+
+
