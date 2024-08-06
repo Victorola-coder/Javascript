@@ -28,6 +28,7 @@ x = todo.address.coords.lat;
  */
 
 // lets create a new objects and try to copy the properties from the todo object, there are some few old ways you can to this but i think the spread operators is concise and modern
+
 const obj = {
   name: "asake",
   isSleeping: false,
@@ -75,7 +76,7 @@ x = Object.entries(todo); // Returns an array of key/values of the enumerable pr
 x = Object.keys(todo); //Returns the names of the enumerable string properties and methods of an object.
 
 /*
- * the length property cannot  be used directly on the object Object, so hen we access the key or value
+ * the length property cannot  be used directly on the object Object,hence we access the key or value
  * we can use the length property to return the number of index in the object
  */
 
