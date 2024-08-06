@@ -72,3 +72,10 @@ const data = {
 const { address, name: n } = data;
 
 console.log(n);
+
+/* 
+---------------------
+NOTE! this code runs from the top to the bottom and most of the method and property mutate the original array.
+---------------------
+*/
+
