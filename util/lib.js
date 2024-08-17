@@ -1,7 +1,7 @@
 let x;
 
-const fruits = ['orange', 'pineapple', 'grape', 'banana'];
-const car = ['toyota', 'volks', 'nissan', 'passat'];
+const fruits = ["orange", "pineapple", "grape", "banana"];
+const car = ["toyota", "volks", "nissan", "passat"];
 
 // fruits.push(car)
 
@@ -55,8 +55,8 @@ console.log(z);
 const library = [
   {
     id: 1,
-    title: 'How to Make Heaven',
-    author: 'Alex Gram',
+    title: "How to Make Heaven",
+    author: "Alex Gram",
     status: {
       own: true,
       reading: false,
@@ -65,8 +65,8 @@ const library = [
   },
   {
     id: 2,
-    title: 'Javascript for Vip',
-    author: 'Ebenezer Ben',
+    title: "Javascript for Vip",
+    author: "Ebenezer Ben",
     status: {
       own: true,
       reading: false,
@@ -75,8 +75,8 @@ const library = [
   },
   {
     id: 3,
-    title: 'No one cares',
-    author: 'Butter Bread',
+    title: "No one cares",
+    author: "Butter Bread",
     status: {
       own: true,
       reading: false,
@@ -93,5 +93,3 @@ const { title: firstBook } = library[0];
 
 const json = JSON.stringify(library);
 console.log(json);
-
-// ono
